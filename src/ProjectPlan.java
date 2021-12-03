@@ -136,7 +136,6 @@ public class ProjectPlan {
                     child.setEndDate(startDate.plusDays(child.getDuration()));
 
                     child.printAll();
-                    System.out.println("== Child Tasks ==");
                     System.out.println();
 
                     //Update next start date
